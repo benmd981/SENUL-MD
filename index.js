@@ -21,7 +21,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94762296665']
+const ownerNumber = ['94762498519']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -142,11 +142,11 @@ if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
-if(senderNumber.includes("94762296665")){
+if(senderNumber.includes("94762498519")){
 if(isReact) return
 m.react("🦹‍♂️")
 }
-if(senderNumber.includes("94788686470")){
+if(senderNumber.includes("94762498519")){
 if(isReact) return
 m.react("🦹")
 }
